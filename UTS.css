@@ -1,0 +1,1228 @@
+* {padding:0; margin: 0}
+
+.container {
+    width:100%; 
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Header : logo kiri atas & navbar*/
+/*----Logo Kiri Atas*/
+header {
+    font-family: montserrat;
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+header img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+/*----Navbar Menu Kanan Atas*/
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: burlywood;
+}
+
+/*CAROUSEL TULISAN HITAM TIPIS*/
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 29, 56, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 27%;
+    text-align: left;
+    padding-left: 155px;
+}
+
+.carousel-caption h5 {
+    color: #8c6b58;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: montserrat;
+    margin-bottom: 10px;
+}
+
+.carousel-caption h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: montserrat;
+}
+
+.carousel-caption p {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: montserrat;
+}
+
+.carousel-caption .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: montserrat;
+    margin-right: 10px;
+}
+
+.carousel-caption .btn-primary {
+    background-color: #755e48; 
+    border: none;
+}
+
+.carousel-caption .btn-secondary {
+    background-color: #000000; 
+    color: #ffffff;
+    border: none;
+}
+
+.carousel-caption .btn:hover {
+    opacity: 0.9;
+}
+
+/*----Join Now Button*/
+.join-button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: rgb(152, 115, 83);
+    color : white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/*CSS UNTUK BAGIAN 4 KOTAK*/
+.container-isi {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: montserrat;
+}
+
+.tentangparis {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.paris {
+    flex: 1 1 23%;
+    background-color: rgb(253, 235, 213);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.paris:hover {
+    transform: translateY(-10px);
+    background-color:  rgb(191, 166, 135);
+    color: white;
+}
+
+.paris:hover h5,
+.paris:hover p {
+    color: white;
+}
+
+.paris h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color : #333;
+}
+
+.paris p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.icon {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+/*CSS BAGIAN BIODATA*/
+.container-bio {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.bio-kiri {
+    flex: 1;
+    position: relative;
+    min-height: 400px;
+}
+
+.bio-kiri img {
+    position: absolute;
+    width: 500px;
+    height: 495px;
+}
+
+.penjelasan-kanan {
+    flex: 1;
+    padding: 20px;
+}
+.penjelasan-kanan h4 {
+    font-family: montserrat;
+    color : rgb(152, 115, 83);
+}
+
+.penjelasan-kanan h5{
+    font-size: 2.5rem;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.penjelasan-kanan p {
+    font-family: montserrat;
+}
+
+/*CSS UNTUK READ ME BUTTON*/
+.bio-button {  
+    padding: 20px 20px;
+    background-color: rgb(152, 115, 83);
+    color : white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: montserrat;
+}
+
+/*BAGIAN KANAN FOTO PARIS*/
+container-gambar .bagiankanan img {
+    width: 500px;
+    height: 650px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/*Tulisan Judul About France*/
+.text-center {
+    text-align: center;
+}
+
+.about-France {
+    font-family: montserrat;
+    color: black;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.cafe-shop {
+    font-family: montserrat;
+    color: rgb(152, 115, 83);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*BAGIAN KIRI FOTO*/
+.container-gambar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.kiri .atas img {
+    grid-column: span 2;
+    width: 100%;
+    height: auto;
+    width: 700px;
+    height: auto;
+    margin-left: 165px;
+}
+
+.kiri .bawah {
+    display : flex;
+    justify-content: space-between;
+}
+
+.kiri .bawah .kiribawah-1 img{
+    width: 345px;
+    height: 230px;
+    float: left; 
+    margin-left: 165px;
+    margin-top: 10px;
+}
+
+.kiri .bawah .kiribawah-2 img {
+    width: 345px;
+    height: 250px;
+    float: left; 
+    margin-top: 10px;
+}
+
+.kanan img {
+    position: absolute;
+    margin-left: 10px;
+    width: 450px;
+    height: 613px;
+}
+
+.kiri .atas
+.kiri .bawah .kiribawah-1,
+.kiri .bawah .kiribawah-2 {
+    position: relative;
+}
+
+.container-xxl {
+    max-width: 100%;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*TULISAN DALAM FOTO*/
+.bg-white {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.end-0 {
+    right: 0;
+}
+
+.text-primary {
+    color: #a59662;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat;
+    font-weight: bold;
+    color: #615b44;
+}
+
+small {
+    font-size: 14px;
+    font-family: montserrat;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* UKURAN CONTAINER DESTINATION CARD*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+/* DESTINATION CARD */
+.row-dest {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.destination-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    width: 330px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.destination-image {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.destination-image img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    flex-grow: 1;
+}
+
+.destination-details h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.destination-details .rating {
+    color: #ffc107;
+}
+
+/* DESTINATION INFO */
+.destination-info {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f8ff;
+    padding: 10px 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.destination-info span {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin: auto;
+}
+
+/* Button Read Now, Join Now*/
+.destination-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.destination-buttons .btn {
+    background-color: #937c5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* THE KING -  RAJA NYA*/
+.section-title {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.raja-sect h1,
+.raja-sect h2 {
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.instructor-card {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.instructor-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.instructor-info {
+    margin-top: 10px;
+}
+
+.instructor-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.instructor-info p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #00d9ff;
+    margin: 0 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+/*RAJA SECTION*/
+.title-raja {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-size: 40px;
+    color: rgb(152, 115, 83);
+}
+
+.raja-sect h1 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.cont-raja-wrapper {
+    display: flex;   
+    align-items: flex-start;
+    justify-content: center; 
+    gap: 20px; 
+    margin: 10px 100px 20px 160px;
+    max-width: 1200px;
+}
+
+.cont-raja {
+    text-align: center;
+    max-width: 280px; 
+}
+
+.raja-box {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+}
+
+.img-raja {
+    width: 240px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.capt {
+    font-size: 16px;
+    font-family: montserrat;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+/* TOURIST SAY */
+.tourist-container {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: montserrat;
+}
+
+.tourist-container h1,
+.tourist-container h2,
+.tourist-item h4 {
+    font-weight: bold;
+}
+
+.tourist-container h2 {
+    font-size: 40px;
+    color: rgb(152, 115, 83);
+}
+
+.tourist-container h1 {
+    font-size: 25px;
+    color: black;
+}
+
+.tourist-slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth; 
+    padding: 10px 0;
+}
+
+.tourist-item {
+    background-color:rgb(253, 235, 213);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+    flex: 0 0 auto; 
+    width: 300px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tourist-item img {
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+    width: 50px;
+    height: auto;
+}
+
+.tourist-container h2 {
+    margin-bottom: 20px;
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #776346;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-col {
+    margin-bottom: 20px;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: montserrat;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    font-family: montserrat;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: montserrat;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer p {
+    margin: 0 0 10px;
+    font-family: montserrat;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #fbfbfb;
+    color: #000000;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a08571;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4f3a2e;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #8f7c5c;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.footer-menu a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: #fff;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*HEADER DI ABOUT.HTML DAN ABOUT.HTML NYA */
+.container-gambaratas {
+    position: relative; 
+    width: 100%;
+    height: auto; 
+}
+
+.container-gambaratas img {
+    opacity: 0.8;
+    filter: brightness(0.4);
+    width: 100%;
+    height: auto;
+}
+
+.container-gambaratas h1 {
+    font-family: montserrat;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.container-gambaratas .breadcrumb {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    text-align: center; 
+    color: white; 
+}
+
+.container-gambaratas .breadcrumb-item a {
+    color: white;
+}
+
+.container-gambaratas .breadcrumb-item.active {
+    color: #fff;
+}
+
+.container-gambaratas h1 {
+    font-family: montserrat;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 36px; 
+}
+
+/*CONTACT*/
+.container-kolom h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.container-kolom h5 {
+    font-size: 1.25rem;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.container-kolom h6 {
+    font-size: 1.1rem; 
+    font-family: montserrat;
+}
+
+.container-kolom {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: montserrat;
+}
+
+/* 404 Page Not Found */
+.cont-404 {
+    text-align: center;
+    padding: 20px;
+}
+
+.cont-404 h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.cont-404 h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.cont-404 p {
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+.cont-404 img {
+    width: 130px;
+    height: auto;
+    margin: 50px 0;
+}
+
+.cont-404 a.btn {
+    font-family: montserrat;
+    font-size: 18px;
+    background-color: rgb(152, 115, 83);
+    border: none;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.cont-404 a.btn:hover {
+    color: #ae9877;
+}
+
+/* CSS NO 1 */
+.no1uts {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+
+.makanan {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 38%;
+    margin-bottom: 20px;
+}
+
+
+.makanan-image {
+    width: 30%;
+    object-fit: cover;
+}
+
+.makanan-content {
+    padding: 20px;
+    width: 60%;
+}
+
+
+.card-content h3 {
+    color: #bfb18c;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: montserrat;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.date {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #555;
+    font-family: montserrat;
+    margin-left: 10px;
+}
+
+.date i {
+    margin-right: 5px;
+    margin-left: 1px;
+}
+
+
+/* CSS UTS NO 2*/
+.utsno2 {
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.pricing {
+    text-align: center;
+    padding: 20px;
+}
+
+.pricing h1 {
+    font-size: 36px;
+    font-family: montserrat;
+    color :black;
+    font-weight: bold;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color:  rgb(152, 115, 83);
+    margin: 10px auto;
+}
+
+.pricing p {
+    font-size: 16px;
+    color: #4e4e4e;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/* CSS NO 3 UTS */
+.contact-section-fixed {
+    /* INI YANG PALING PENTING UNTUK WARNA LATAR BELAKANG */
+    background-color: rgb(152, 115, 83); /* Warna cokelat yang sesuai */
+    font-family: montserrat;
+    padding: 50px 0;
+}
+
+.contact-section-fixed h1 {
+    color: white; /* Warna teks putih agar kontras dengan latar cokelat */
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact-section-fixed p {
+    color: #e0e0ff; /* Warna teks paragraf lebih terang */
+    margin-bottom: 25px;
+}
+
+/* Styling untuk Input Form */
+.contact-section-fixed .form-control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0;
+    color: black !important; 
+    background-color: white;
+}
+
+/* Styling untuk Tombol */
+.send-message-btn {
+    background-color: black !important; 
+    color: white !important; 
+    border: none !important; 
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.send-message-btn:hover {
+    background-color: #333333 !important;
+    color: white !important;
+    box-shadow: none; /* Hilangkan shadow saat hover */
+}
+
+/* Styling untuk Gambar Paris */
+.contact-image-fixed {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+/* ==============================================
+   RESPONSIVE LAYOUT (UNTUK LAYAR KECIL)
+   ============================================== */
+
+/* Tablet dan Layar Lebih Kecil (max-width: 992px) */
+@media (max-width: 992px) {
+    /* HEADER */
+    .container {
+        padding: 0 15px; /* Tambah padding horizontal di container utama */
+    }
+
+    /* CAROUSEL CAPTION */
+    .carousel-caption {
+        padding-left: 50px; /* Kurangi padding untuk tulisan */
+        padding-top: 20%;
+        align-items: center; /* Pusatkan elemen di tablet */
+        text-align: center;
+    }
+
+    .carousel-caption h1 {
+        font-size: 36px; /* Kurangi ukuran font judul besar */
+    }
+
+    /* BIODATA SECTION */
+    .container-bio {
+        flex-direction: column; /* Ubah tata letak menjadi vertikal */
+        align-items: center;
+        padding: 20px;
+    }
+
+    .bio-kiri, .penjelasan-kanan {
+        width: 100%; /* Lebarkan ke 100% */
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .bio-kiri img {
+        position: static; /* Hilangkan absolute positioning */
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+
+    /* 4 KOTAK PARIS */
+    .tentangparis {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .paris {
+        flex: 1 1 45%; /* Di tablet, tampilkan 2 kolom */
+    }
+
+    /* BAGIAN GAMBAR PARIS (KIRI KANAN FOTO) */
+    .container-gambar {
+        grid-template-columns: 1fr; /* Ubah menjadi 1 kolom */
+        padding: 0 15px;
+    }
+
+    .kiri .atas img,
+    .kiri .bawah .kiribawah-1 img,
+    .kiri .bawah .kiribawah-2 img,
+    .kanan img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        float: none;
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .kiri .bawah {
+        flex-direction: column; /* Ubah 2 gambar bawah jadi vertikal */
+    }
+
+    /* RAJA SECTION */
+    .cont-raja-wrapper {
+        flex-wrap: wrap; /* Izinkan pindah baris */
+        margin: 10px 15px;
+    }
+
+    /* FOOTER */
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr); /* Sudah ada, tapi dikonfirmasi */
+        padding: 0 15px;
+    }
+
+    /* KONTAK NO 3 UTS */
+    .no3uts {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .no3uts .kiri {
+        padding: 20px;
+        margin-right: 0;
+        max-width: 100%;
+    }
+    
+    .no3uts .kiri input, 
+    .no3uts .kiri textarea {
+        width: 100%; /* Pastikan input/textarea 100% di dalam kiri */
+        box-sizing: border-box; /* Penting agar padding tidak melebihi width */
+    }
+
+    .no3uts .kanan {
+        width: 100%;
+        padding: 0 20px 20px 20px;
+    }
+}
+
+/* Ponsel dan Layar Sangat Kecil (max-width: 576px) */
+@media (max-width: 576px) {
+    /* HEADER */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column; /* Menu navbar jadi vertikal */
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .join-button {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    /* CAROUSEL CAPTION */
+    .carousel-caption {
+        padding: 50px 15px; /* Padding lebih kecil */
+        text-align: center;
+        align-items: center;
+        position: static;
+        transform: none;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px; /* Judul lebih kecil */
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+    }
+    
+    /* 4 KOTAK PARIS */
+    .paris {
+        flex: 1 1 100%; /* Di ponsel, tampilkan 1 kolom penuh */
+    }
+
+    /* MAKANAN UTS NO 1 */
+    .no1uts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .makanan {
+        width: 90%; /* Lebar 90% dari layar ponsel */
+        flex-direction: column; /* Ubah konten makanan jadi vertikal */
+    }
+
+    .makanan-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .makanan-content {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    /* FOOTER */
+    .footer-grid {
+        grid-template-columns: 1fr; /* Sudah ada, tapi dikonfirmasi */
+    }
+
+    /* 404 PAGE */
+    .cont-404 h1 {
+        font-size: 60px;
+    }
+    
+    .cont-404 h2 {
+        font-size: 30px;
+    }
+}
