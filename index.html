@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="UTS.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style></style>
+</head>
+
+    <body>
+    <!--BAGIAN ATAS LOGO KIRI ATAS DAN NAVBAR KANAN-->
+    <header>
+        <!--LOGO KIRI ATAS-->
+        <div class="container d-flex justify-content-between align-items-center h-100">
+            <div class="logo">
+                <img src="fotoUTS/logo-jo-main-desk.png" alt="Logo atas kiri">
+            </div> <!--PENUTUP DIV CLASS LOGO CONTAINER -->
+            
+            <!--NAVBAR MENU-->
+            <nav class="d-flex align-items-center">
+                <ul class="menu d-flex align-items-center mb-0">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Destination.html">Destination</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu fade-down m-0">
+                            <a href="Team.html" class="dropdown-item" style="color: black">Our Team</a>
+                            <a href="Testimonial.html" class="dropdown-item" style="color: black">Testimonial</a>
+                            <a href="404.html" class="dropdown-item" style="color: black">404 Page</a>
+                        </ul> <!-- PENUTUP UL CLASS DROPDOWN-MENU -->
+                    </li> <!-- PENUTUP LI CLASS NAV-ITEM DROPDOWN -->
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul> <!--PENUTUP UL CLASS MENU-->
+                <a href="" class="join-button py-4 px-lg-5 d-none d-lg-block">Join Now ➔</a>
+            </nav> <!--PENUTUP NAVBAR-->
+        </div> <!--PENUTUP DIV CLASS CONTAINER D-FLEX-->
+    </header> <!--PENUTUP LOGO CONTAINER HEADER-->
+
+
+    <!--CAROUSEL FOTO-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner">
+            
+            <!--CAROUSEL FOTO 1-->
+            <div class="carousel-item active">
+                <img src="fotoUTS/arc.jpg" class="d-block w-100" alt="Arc de Triomphe">
+                <div class="carousel-caption d-none d-md-block">  <!-- Overlay and Caption -->
+                    <div class="carousel-overlay">
+                        <h5>ALL ABOUT PARIS,FRANCE</h5>
+                        <h1>Arc de triomphe de l'Étoile</h1>
+                        <p>Monumen berbentuk Pelengkung kemenangan di Paris yang telah direncanakan sejak 1806 oleh Napoleon</p>
+                        <a href="#" class="btn btn-primary me-2">Read More</a>
+                        <a href="#" class="btn btn-secondary">See Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--CAROUSEL FOTO 2-->
+            <div class="carousel-item">
+                <img src="fotoUTS/eiffel.jpg" class="d-block w-100" alt="Eiffel Tower">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-overlay">
+                        <h5>ALL ABOUT PARIS,FRANCE</h5>
+                        <h1>Eiffel Tower</h1>
+                        <p>Dibangun sebagai pintu gerbang masuk ke pameran internasional tahun 1889 sekaligus sebagai bukti kecerdikan industri Prancis.</p>
+                        <a href="#" class="btn btn-primary me-2">Read More</a>
+                        <a href="#" class="btn btn-secondary">Join Now</a>
+                    </div>
+                </div>
+            </div> 
+
+            <!--CAROUSEL FOTO 3-->
+            <div class="carousel-item">
+                <img src="fotoUTS/fs.jpg" class="d-block w-100" alt="Eiffel Tower">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-overlay">
+                        <h5>ALL ABOUT PARIS,FRANCE</h5>
+                        <h1>Paris Fashion Week</h1>
+                        <p>Serangkaian presentasi desainer yang diadakan dua kali setahun di Paris, Prancis.</p>
+                        <a href="#" class="btn btn-primary me-2">Read More</a>
+                        <a href="#" class="btn btn-secondary">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> <!--PENUTUP CAROUSEL FOTO SLIDE-->
+
+    <!--TAMBAHAN NO 1 UTS-->
+    <div class="no1uts">
+        <div class="makanan">
+            <img src="fotoUTS/makanan1.webp" alt="Ratatouille" class="makanan-image">
+            <div class="card-content">
+                <h3>Ratatouille</h3>
+                <p class="date"><i class="fa fa-calendar"></i> June 22, 2020  <span>by Colorlib</span></p>
+                <p>Ratatouille adalah hidangan khas Prancis yang terbuat dari berbagai sayuran, seperti tomat, terong, paprika, bawang bombay, dan bawang putih.</p>
+            </div>
+        </div>
+    
+        <div class="makanan">
+            <img src="fotoUTS/makanan2.jpeg" alt="Beef Bourguignon" class="makanan-image">
+            <div class="card-content">
+                <h3>Beef Bourguignon</h3>
+                <p class="date"><i class="fa fa-calendar"></i> June 22, 2020  <span>by Colorlib</span></p>
+                <p>Beef Bourguignon adalah sup daging sapi Prancis yang direbus dengan anggur merah, sering kali Burgundy merah, dan kaldu</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="no1uts">
+        <div class="kiri">
+            <img src="fotoUTS/makanan1.webp" alt="DEBUT">
+                <h3>Ratatouille</h3>
+                <p> Ratatouille adalah hidangan khas Prancis yang terbuat dari berbagai sayuran, seperti tomat, terong, paprika, bawang bombay, dan bawang putih.</p>
+        </div>
+
+        <div class="kanan">
+            <img src="fotoUTS/makanan1.webp" alt="DEBUT">
+                <h3>Beef Bourguignon</h3>
+                <p> Beef Bourguignon adalah sup daging sapi Prancis yang direbus dengan anggur merah, sering kali Burgundy merah, dan kaldu</p>
+        </div>
+    </div> <!--PENUTUP NO 1 UTS--> -->
+
+    <!-- ISI PELAYANAN YANG DITAWARKAN -->
+    <div class="container-isi py-5">
+        <div class="tentangparis">
+        <!-- Isi 1 -->
+            <div class="paris">
+                <img src="fotoUTS/mhkota-01.png" alt="mahkota" class="icon">
+                <h3>Louis XVI</h3>
+                <p>Louis XVI adalah raja terakhir yang tinggal di Istana Versailles. Ia memiliki istri yang bernama Marie-Antoinette.</p>
+            </div>
+        <!-- Isi 2 -->
+            <div class="paris">
+                <img src="fotoUTS/kuda-01.png" alt="kuda" class="icon">
+                <h3>Kandang Kuda</h3>
+                <p>Kandang Kuda Besar dan Kecil merupakan proyek konstruksi kerajaan terbesar untuk kandang kuda yang pernah dilakukan.</p>
+            </div>
+        <!-- Isi 3 -->
+            <div class="paris">
+                <img src="fotoUTS/hati-01.png" alt="hati" class="icon">
+                <h3>Romansa Paris</h3>
+                <p>Paris memiliki sejarah panjang yang dikaitkan dengan cinta dan romansa, menjadikannya sebagai tujuan bagi para pecinta.</p>
+            </div>
+        <!-- Isi 4 -->
+            <div class="paris">
+                <img src="fotoUTS/flag-01.png" alt="bendera" class="icon">
+                <h3>Kekuasaan Prancis</h3>
+                <p>Kekuasaan Kerajaan Prancis pernah mengalami beberapa perubahan seperti Monarki Absolut dan Monarki Konstitusional.</p>
+            </div>
+        </div> <!-- PENUTUP CLASS TENTANG PARIS -->
+    </div> <!--PENUTUP DIV CLASS CONTAINER-ISI -->
+    
+    <!--BIODATA-->
+    <div class="container-bio py-5">
+        <div class="bio-kiri">
+        <!--GAMBAR BIODATA-->
+        <img src="fotoUTS/bio.jpg" alt="bio" class="bio">
+        </div> <!-- PENUTUP CLASS BIO KIRI -->
+        
+        <div class="penjelasan-kanan">
+            <h4 class="bio-judul">About Me</h4>
+            <h5 class="bio-header">WELCOME TO MY WEBSITE</h5>
+            <p class="deskripsi-diri">Hi! Nama saya Graciella Devina Buntoro, biasanya di panggil grace oleh teman-teman saya. Saya merupakan mahasiswi Universitas Tarumanagara yang mengambil jurusan Sistem Informasi angkatan 2023, dengan NIM 825230076 dari kelas SI C.</p>
+            <p class="deskripsi-diri">Website ini saya buat bertujuan untuk memenuhi nilai UTS mata-kuliah Web Development, dengan dosen pengajar Bapak Dr. Wasino, S.Kom., M.Kom. Saya harap website yang saya buat dapat memenuhi ekspektasi dari Bapak Wasino. Saya mohon maaf bila ada kesahalan di dalam website yang saya buat ini. Sekian dari saya, terimakasih. </p>
+            
+            <div class="row">
+                <ul class="list-unstyled d-flex flex-wrap">
+                    <li class="col-sm-6 mb-0">
+                        <p><i class="text-primary me-2">→</i>Graciella Devina Buntoro</p>
+                    </li>
+                    <li class="col-sm-6 mb-0">
+                        <p><i class="text-primary me-2">→</i>NIM: 825230076 [Kelas SI C]</p>
+                    </li>
+                    <li class="col-sm-6 mb-0">
+                        <p><i class="text-primary me-2">→</i>Angkatan 2023</p>
+                    </li>
+                    <li class="col-sm-6 mb-0">
+                        <p><i class="text-primary me-2">→</i>MatKul: Web Development</p>
+                    </li>
+                </ul>
+            </div> <!--PENUTUP CLASS ROW-->
+            <a class="bio-button" href="">Read More</a>
+        </div> <!--PENUTUP CLASS PENJELASAN KANAN-->
+    </div> <!--PENUTUP CLASS CONTAINER-BIO-->
+
+    <!--TEXT DIATAS CAFE SHOP ETC-->
+    <div class="text-center">
+        <h6 class="about-France" style="text-align: center; ">---About France---</h6>
+        <h6 class="cafe-shop">Cafe, Shop, Eiffel, and More</h6>
+    </div>
+
+    <!--CAFE SHOP ETC-->
+    <div class="container-xxl category">
+        <div class="container">
+            <div class="row g-3">
+                
+                <!-- Bagian Kiri -->
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="#">
+                                <img class="img-fluid" src="fotoUTS/denoche.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h6 class="m-0">Arc de Triomphe</h6>
+                                    <small class="text-primary">Dibangun pada tahun 1806</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="#">
+                                <img class="img-fluid" src="fotoUTS/cafe.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h6 class="m-0">Cafe Blanchet</h6>
+                                    <small class="text-primary">64 Rue Rambuteau, 75001 Paris</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="#">
+                                <img class="img-fluid" src="fotoUTS/bus.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h6 class="m-0">Bus Paris yang Ikonik</h6>
+                                    <small class="text-primary">Dimulai pada tahun 1828</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!--PENUTUP CLASS ROW G-3, BAGIAN KIRI-->
+                </div> <!--PENUTUP CLASS COL-LG-7, BAGIAN KIRI-->
+                
+                <!-- Bagian Kanan -->
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="#">
+                        <img class="img-fluid position-absolute w-100 h-100" src="fotoUTS/prs.jpg" alt="Paris" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                        <h6 class="m-0">Menara Eiffel</h6>
+                        <small class="text-primary">Julukan dalam bahasa Prancis : La Dame de Fer</small>
+                        </div>
+                    </a>
+                </div> <!--PENUTUP CLASS COL-LG, BAGIAN KANAN-->
+            
+            </div><!--PENUTUP CLASS ROW G-3-->
+        </div><!--PENUTUP CLASS CONTAINER-->
+    </div><!--PENUTUP CLASS CONTAINER-XXL-->
+
+    <!--SOAL TAMBAHAN NO 2 UTS-->
+    <div class="utsno2">
+        <div class="pricing">
+            <h1> Pricing</h1>
+            <div class="underline"></div>
+            <P> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </P>
+        </div>
+    </div>
+
+    <!--TEXT DIATAS POPULAR DESTINATION-->
+    <div class="text-center">
+        <h6 class="about-France">---Destination Around France---</h6>
+        <h6 class="cafe-shop">Enjoy The Destination</h6>
+    </div>
+
+    <!--DESTINATION CARD-->
+    <div class="container">
+        <div class="row-dest g-4 justify-content-center"> <!-- Pusatkan kolom -->
+        
+        <!-- DESTINATION CARD 1 -->
+        <div class="col-lg-auto col-md-6"> <!-- Kolom disesuaikan -->
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="fotoUTS/istana.jpg" alt="destination Image" class="img-fluid">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px; background-color: bisque; color: rgb(82, 66, 46); border-color: rgb(82, 66, 46); font-family: montserrat;">Read More</a>
+                        <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;background-color: bisque; color: rgb(82, 66, 46); border-color: rgb(82, 66, 46); font-family: montserrat;">Join Now</a>
+                    </div>
+                </div>
+                <div class="destination-details" style="font-family: montserrat;">
+                    <h3>Istana Versailles</h3>
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(123)</small>
+                    </div>
+                    <p>Place d'Armes, 78000 Versailles, Prancis</p>
+                </div>
+                <div class="destination-info">
+                    <span class="instructor">Prancis</span>
+                    <span class="duration">€13</span>
+                    <span class="students">Rp.223.714,-</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESTINATION CARD 2 -->
+        <div class="col-lg-auto col-md-6">
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="fotoUTS/lemarais.jpg" alt="destination Image" class="img-fluid">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px; background-color: bisque; color: rgb(82, 66, 46); border-color: rgb(82, 66, 46); font-family: montserrat;">Read More</a>
+                        <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;background-color: bisque; color: rgb(82, 66, 46); border-color: rgb(82, 66, 46); font-family: montserrat;">Join Now</a>
+                    </div>
+                </div>
+                <div class="destination-details" style="font-family: montserrat;">
+                    <h3>Le Marais</h3>
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(123)</small>
+                    </div>
+                    <p>Le Marais 3e Arrondissement, 75003 Paris Prancis.</p>
+                </div>
+                <div class="destination-info">
+                    <span class="instructor">Prancis</span>
+                    <span class="duration">DEPEND</span>
+                    <span class="students">Tergantung</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESTINATION CARD 3 -->
+        <div class="col-lg-auto col-md-6">
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="fotoUTS/chapelle.jpg" alt="destination Image" class="img-fluid">
+                    <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                        <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px; background-color: bisque; color: rgb(82, 66, 46); border-color: rgb(82, 66, 46); font-family: montserrat;">Read More</a>
+                        <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;background-color: bisque; color: rgb(82, 66, 46); border-color: rgb(82, 66, 46); font-family: montserrat;">Join Now</a>
+                    </div>
+                </div>
+                <div class="destination-details" style="font-family: montserrat;">
+                    <h3>Sainte-Chapelle</h3>
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(123)</small>
+                    </div>
+                    <p>10 Bd du Palais, 75001 Paris, Prancis</p>
+                </div>
+                <div class="destination-info">
+                    <span class="instructor">Prancis</span>
+                    <span class="duration">€20.90</span>
+                    <span class="students">Rp.360.000,-</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div> <!-- PENUTUP DESTINATION CARD -->
+
+    <!--RAJA RAJA NYA-->
+    <div class="raja-sect">
+        <h1>---The King---</h1>
+        <h2 class="title-raja">Famous Kings Who Ruled the Palace of Versailles</h2>
+
+        <div class="cont-raja-wrapper">
+            <div class="cont-raja">
+                <div class="raja-box">
+                    <img src="fotoUTS/LOUISPHILIPPE1.jpg" class="img-raja" alt="Louis Philippe">
+                    <p class="capt">Louis Philippe</p>
+                </div>
+            </div>
+
+            <div class="cont-raja">
+                <div class="raja-box">
+                    <img src="fotoUTS/LOUISXIV.jpg" class="img-raja" alt="Louis XIV">
+                    <p class="capt">Louis XIV</p>
+                </div>
+            </div>
+
+            <div class="cont-raja">
+                <div class="raja-box">
+                    <img src="fotoUTS/LOUISXVI.jpg" class="img-raja" alt="Louis XVI">
+                    <p class="capt">Louis XVI</p>
+                </div>
+            </div>
+
+            <div class="cont-raja">
+                <div class="raja-box">
+                    <img src="fotoUTS/Napo1.jpg" class="img-raja" alt="Napoleon Bonaparte">
+                    <p class="capt">Napoleon Bonaparte</p>
+                </div>
+            </div>
+        </div>
+    </div> <!--PENUTUP RAJA SECT-->
+
+    <!--TOURIST SAY-->
+    <div class="tourist-container">
+        <h1>---Testimonial---</h1>
+        <h2>What The Tourist Said</h2>
+        <div class="tourist-slider">
+            <div class="tourist-item">
+                <img src="fotoUTS//leejeno.jpeg" alt="Client Photo">
+                <h4>John Roberts</h4>
+                <p>Business Man</p>
+                <p>Saya telah mengunjungi Paris, Prancis sebanyak enam kali. Kota ini merupakan salah satu kota favorit saya di seluruh dunia.</p>
+            </div>
+            <div class="tourist-item">
+                <img src="fotoUTS/karina.webp" alt="Client Photo">
+                <h4>Karina</h4>
+                <p>Singer</p>
+                <p>Paris adalah kota impian! Arsitekturnya yang indah dan suasana romantisnya membuatku jatuh cinta.</p>
+            </div>
+            <div class="tourist-item">
+                <img src="fotoUTS/marklee.jpeg" alt="Client Photo">
+                <h4>Mark Chris</h4>
+                <p>Artist</p>
+                <p>Menjelajahi museum dan menikmati budaya Prancis adalah pengalaman yang sangat berharga. Paris adalah tempat yang harus dikunjungi!</p>
+            </div>
+            <div class="tourist-item">
+                <img src="fotoUTS/winter.webp" alt="Client Photo">
+                <h4>Winter</h4>
+                <p>Guitarist</p>
+                <p>Setiap sudut Paris menyimpan keajaiban. Dari Louvre hingga Montmartre, semuanya sangat memesona. Truly a magical city!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Column 1: Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Link</h4>
+                    <ul>
+                        <li><a href="about.html">&gt; About Us</a></li>
+                        <li><a href="contact.html">&gt; Contact Us</a></li>
+                        <li><a href="privacy.html">&gt; Privacy Policy</a></li>
+                        <li><a href="terms.html">&gt; Terms & Condition</a></li>
+                        <li><a href="faqs.html">&gt; FAQs & Help</a></li>
+                    </ul>                                       
+                </div>
+
+                <!-- Column 2: Contact Info -->
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong> 123 Street, New York, USA</p>
+                    <p><strong>Phone:</strong> +012 345 67890</p>
+                    <p><strong>Email:</strong> info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 3: Gallery -->
+                <div class="footer-col">
+                    <h4>Gallery</h4>
+                    <div class="gallery">
+                        <img src="fotoUTS/gallery1.jpg" alt="Gallery 1">
+                        <img src="fotoUTS/gallery2.webp" alt="Gallery 2">
+                        <img src="fotoUTS/gallery3.webp" alt="Gallery 3">
+                        <img src="fotoUTS/gallery4.jpg" alt="Gallery 4">
+                        <img src="fotoUTS/gallery5.jpg" alt="Gallery 5">
+                        <img src="fotoUTS/gallery6.jpeg" alt="Gallery 6">
+                    </div>
+                </div>
+
+                <!-- Column 4: Newsletter -->
+                <div class="footer-col" style="font-family: montserrat;">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get the latest updates.</p>
+                    <form action="#">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Graciella Devina, 825230076 ~ SI C</p>
+            <div class="footer-menu">
+                <p>Mata Kuliah Web Development</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="825230076_Graciella\bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
